@@ -61,9 +61,15 @@ class MatchResult(BaseModel):
 
     candidate: ChemicalRecord
     confidence_score: float = Field(
-        ..., ge=0.0, le=100.0, description="Confidence score from 0 to 100"
+        ..., description="Confidence score from 0 to 100"
     )
     property_match_details: dict = Field(
         default_factory=dict,
         description="Per-property match details including relative errors and match status",
     )
+
+    @field_validator("confidence_score")
+    @classmethod
+    def clamp_confidence(cls, v: float) -> float:
+        """Clamp to [0.0, 100.0] — guards against floating point drift."""
+        return max(0.0, min(100.0, float(v)))

@@ -420,7 +420,11 @@ with tab2:
                 )
 
                 with st.spinner("Comparing against reference data…"):
-                    top_results = rank_candidates(selected_candidates, measurements, top_n=5)
+                    try:
+                        top_results = rank_candidates(selected_candidates, measurements, top_n=5)
+                    except Exception as e:
+                        st.error(f"Matching error: {e}")
+                        top_results = []
 
                 st.markdown("#### Top Matches")
                 for rank_i, match in enumerate(top_results, 1):
@@ -601,14 +605,23 @@ with tab3:
 
         rows = []
         for c in chosen:
+            try:
+                hazard_level = assess_hazard_level(c.safety)
+            except Exception:
+                hazard_level = "Unknown"
+            try:
+                nfpa_h = int(c.safety.nfpa_704.get("health", 0) or 0)
+                nfpa_f = int(c.safety.nfpa_704.get("flammability", 0) or 0)
+            except (ValueError, TypeError):
+                nfpa_h, nfpa_f = 0, 0
             rows.append({
                 "Chemical": c.name,
                 "Formula": c.formula,
                 "State": c.properties.state.capitalize(),
                 "Signal Word": c.safety.ghs_signal_word or "—",
-                "Hazard Level": assess_hazard_level(c.safety),
-                "NFPA Health": int(c.safety.nfpa_704.get("health", 0) or 0),
-                "NFPA Flamm.": int(c.safety.nfpa_704.get("flammability", 0) or 0),
+                "Hazard Level": hazard_level,
+                "NFPA Health": nfpa_h,
+                "NFPA Flamm.": nfpa_f,
             })
         st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
 
