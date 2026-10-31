@@ -248,7 +248,8 @@ def compare_measurements(
     else:
         total_weight = sum(weight_parts)
         weighted_sum = sum(s * w for s, w in zip(score_parts, weight_parts))
-        confidence = round((weighted_sum / total_weight) * 100.0, 2)
+        # Clamp strictly to [0.0, 100.0] to satisfy Pydantic ge/le constraints
+        confidence = max(0.0, min(100.0, round((weighted_sum / total_weight) * 100.0, 2)))
 
     details["summary"] = {
         "properties_compared": len(score_parts),

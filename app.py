@@ -607,8 +607,8 @@ with tab3:
                 "State": c.properties.state.capitalize(),
                 "Signal Word": c.safety.ghs_signal_word or "—",
                 "Hazard Level": assess_hazard_level(c.safety),
-                "NFPA Health": c.safety.nfpa_704.get("health", 0),
-                "NFPA Flamm.": c.safety.nfpa_704.get("flammability", 0),
+                "NFPA Health": int(c.safety.nfpa_704.get("health", 0) or 0),
+                "NFPA Flamm.": int(c.safety.nfpa_704.get("flammability", 0) or 0),
             })
         st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
 

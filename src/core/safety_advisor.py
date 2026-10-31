@@ -122,7 +122,10 @@ def nfpa_summary(nfpa: dict) -> str:
         if key == "special":
             lines.append(f"  {label}: {value if value else 'None'}")
         else:
-            rating = int(value) if str(value).isdigit() else value
+            try:
+                rating = int(value)
+            except (ValueError, TypeError):
+                rating = 0
             severity = _NFPA_SEVERITY.get(rating, "Unknown")
             lines.append(f"  {label}: {rating} – {severity}")
     return "\n".join(lines)
@@ -233,7 +236,7 @@ def assess_hazard_level(safety: SafetyInfo) -> str:
         (
             int(v)
             for k, v in safety.nfpa_704.items()
-            if k != "special" and str(v).isdigit()
+            if k != "special" and str(v).lstrip("-").isdigit()
         ),
         default=0,
     )
