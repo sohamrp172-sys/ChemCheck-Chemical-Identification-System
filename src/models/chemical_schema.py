@@ -2,8 +2,11 @@
 Pydantic v2 data models for ChemCheck chemical identification system.
 """
 
+from __future__ import annotations
+
+from dataclasses import dataclass, field
 from typing import Optional
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
 class PhysicalProperties(BaseModel):
@@ -35,6 +38,10 @@ class SafetyInfo(BaseModel):
 class ChemicalRecord(BaseModel):
     """Complete chemical record with identification, properties, and safety data."""
 
+    # Allow passing already-constructed ChemicalRecord instances without
+    # re-validation — prevents Streamlit module-reload identity mismatches.
+    model_config = ConfigDict(arbitrary_types_allowed=True, revalidate_instances="never")
+
     id: str = Field(..., description="Unique identifier")
     name: str = Field(..., description="Common name")
     iupac_name: str = Field(..., description="IUPAC systematic name")
@@ -56,20 +63,20 @@ class MeasuredProperties(BaseModel):
     observed_state: Optional[str] = Field(None, description="Observed state of matter")
 
 
-class MatchResult(BaseModel):
-    """Result of comparing measured properties against a candidate chemical record."""
+@dataclass
+class MatchResult:
+    """
+    Result of comparing measured properties against a candidate ChemicalRecord.
+
+    Using a plain dataclass instead of a Pydantic model avoids Pydantic
+    re-validating the nested ChemicalRecord against a potentially different
+    class identity after Streamlit module reloads.
+    """
 
     candidate: ChemicalRecord
-    confidence_score: float = Field(
-        ..., description="Confidence score from 0 to 100"
-    )
-    property_match_details: dict = Field(
-        default_factory=dict,
-        description="Per-property match details including relative errors and match status",
-    )
+    confidence_score: float
+    property_match_details: dict = field(default_factory=dict)
 
-    @field_validator("confidence_score")
-    @classmethod
-    def clamp_confidence(cls, v: float) -> float:
-        """Clamp to [0.0, 100.0] — guards against floating point drift."""
-        return max(0.0, min(100.0, float(v)))
+    def __post_init__(self) -> None:
+        # Clamp score to valid range regardless of floating-point drift
+        self.confidence_score = max(0.0, min(100.0, float(self.confidence_score)))

@@ -262,7 +262,6 @@ def compare_measurements(
         property_match_details=details,
     )
 
-
 def rank_candidates(
     candidates: list[ChemicalRecord],
     measurements: MeasuredProperties,
