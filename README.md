@@ -7,6 +7,8 @@
 ![Pytest](https://img.shields.io/badge/Tests-40%20Passing-22c55e?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)
 
+### 🌐 Live Dashboard → [https://chemcheck-chemical-identification-system-n3gymdkq8ec3k4w8pzhdw.streamlit.app](https://chemcheck-chemical-identification-system-n3gymdkq8ec3k4w8pzhdw.streamlit.app)
+
 > **An intelligent laboratory chemical identification and verification system. Identify chemicals by name, formula, or CAS number — match experimental measurements to reference data — review GHS safety information.**
 
 ChemCheck is a dual-layer chemical identification pipeline built for laboratory environments. Enter a chemical name, Hill formula, or CAS number and instantly retrieve verified physical constants, GHS hazard classifications, NFPA 704 ratings, H/P-statements, and SDS summaries. Enter your own experimental measurements and the system scores how closely your sample matches any chemical in the database — flagging discrepancies outside tolerance thresholds. When the local database has no match, ChemCheck falls back automatically to the PubChem PUG-REST API.
@@ -16,6 +18,18 @@ ChemCheck is a dual-layer chemical identification pipeline built for laboratory 
 > ⚠️ **CRITICAL DISCLAIMER:** ChemCheck is an informational reference and screening assistant **only**.  
 > Unknown substances **require definitive analytical validation** (FTIR, NMR, GC-MS) before handling.  
 > Do not rely solely on physical property matching for identification or safety decisions.
+
+---
+
+## 📲 QR Code
+
+Scan to open ChemCheck instantly on any phone or tablet — no typing needed.
+
+[![ChemCheck QR Code](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://chemcheck-chemical-identification-system-n3gymdkq8ec3k4w8pzhdw.streamlit.app)](https://chemcheck-chemical-identification-system-n3gymdkq8ec3k4w8pzhdw.streamlit.app)
+
+**🌐 Live link:** [https://chemcheck-chemical-identification-system-n3gymdkq8ec3k4w8pzhdw.streamlit.app](https://chemcheck-chemical-identification-system-n3gymdkq8ec3k4w8pzhdw.streamlit.app)
+
+> Point your phone camera at the QR code above to open the dashboard directly. Great for lab demonstrations — display it on screen or print it alongside your setup.
 
 ---
 

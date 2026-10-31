@@ -277,17 +277,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Disclaimer
-st.markdown(
-    """
-    <div class="disclaimer-banner">
-    <b>⚠ CRITICAL DISCLAIMER:</b> ChemCheck is an informational reference and screening assistant only.
-    Unknown substances <b>require definitive analytical validation</b> (FTIR, NMR, GC-MS) before handling.
-    Do not rely solely on physical property matching for identification or safety decisions.
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+
 
 db = load_db()
 
