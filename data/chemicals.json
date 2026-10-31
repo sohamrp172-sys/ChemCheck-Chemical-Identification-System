@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "nacl",
+    "name": "Sodium chloride",
+    "iupac_name": "Sodium chloride",
+    "formula": "NaCl",
+    "cas_number": "7647-14-5",
+    "smiles": "[Na+].[Cl-]",
+    "common_uses": [
+      "Ionic strength adjustment in buffers",
+      "Preservation of biological samples",
+      "Calibration standard",
+      "Saline solution preparation"
+    ],
+    "properties": {
+      "molar_mass": 58.44,
+      "melting_point_c": 801.0,
+      "boiling_point_c": 1413.0,
+      "density_g_cm3": 2.165,
+      "appearance": "White crystalline solid",
+      "state": "solid",
+      "water_solubility": "Highly soluble (360 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Warning",
+      "ghs_pictograms": [],
+      "h_statements": [
+        "H319"
+      ],
+      "p_statements": [
+        "P264",
+        "P305",
+        "P351",
+        "P338"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 0,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Low acute toxicity. Causes mild eye irritation. No special fire hazard."
+    }
+  },
+  {
+    "id": "kcl",
+    "name": "Potassium chloride",
+    "iupac_name": "Potassium chloride",
+    "formula": "KCl",
+    "cas_number": "7447-40-7",
+    "smiles": "[K+].[Cl-]",
+    "common_uses": [
+      "Electrolyte in electrochemical cells",
+      "Buffer preparation",
+      "Fertilizer component",
+      "IV fluid component"
+    ],
+    "properties": {
+      "molar_mass": 74.55,
+      "melting_point_c": 770.0,
+      "boiling_point_c": 1420.0,
+      "density_g_cm3": 1.984,
+      "appearance": "White crystalline solid",
+      "state": "solid",
+      "water_solubility": "Soluble (344 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Warning",
+      "ghs_pictograms": [
+        "GHS07"
+      ],
+      "h_statements": [
+        "H302",
+        "H319"
+      ],
+      "p_statements": [
+        "P264",
+        "P270",
+        "P280",
+        "P305",
+        "P351",
+        "P338"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 0,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Harmful if swallowed in large amounts. Causes eye irritation. Avoid ingestion."
+    }
+  },
+  {
+    "id": "cuso4",
+    "name": "Copper(II) sulfate",
+    "iupac_name": "Copper(II) sulfate",
+    "formula": "CuSO4",
+    "cas_number": "7758-98-7",
+    "smiles": "[Cu+2].[O-]S(=O)(=O)[O-]",
+    "common_uses": [
+      "Biuret reagent for protein detection",
+      "Benedict's test reagent",
+      "Electroplating",
+      "Fungicide"
+    ],
+    "properties": {
+      "molar_mass": 159.61,
+      "melting_point_c": 200.0,
+      "boiling_point_c": 650.0,
+      "density_g_cm3": 3.6,
+      "appearance": "Blue crystalline powder (pentahydrate: blue crystals)",
+      "state": "solid",
+      "water_solubility": "Soluble (203 g/L at 20 °C as pentahydrate)"
+    },
+    "safety": {
+      "ghs_signal_word": "Warning",
+      "ghs_pictograms": [
+        "GHS07",
+        "GHS09"
+      ],
+      "h_statements": [
+        "H302",
+        "H318",
+        "H400",
+        "H410"
+      ],
+      "p_statements": [
+        "P260",
+        "P264",
+        "P270",
+        "P273",
+        "P280",
+        "P391",
+        "P501"
+      ],
+      "nfpa_704": {
+        "health": 2,
+        "flammability": 0,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Harmful if swallowed. Causes serious eye damage. Very toxic to aquatic life."
+    }
+  },
+  {
+    "id": "nahco3",
+    "name": "Sodium bicarbonate",
+    "iupac_name": "Sodium hydrogen carbonate",
+    "formula": "NaHCO3",
+    "cas_number": "144-55-8",
+    "smiles": "[Na+].OC([O-])=O",
+    "common_uses": [
+      "pH buffering",
+      "Acid neutralization",
+      "Titration standard",
+      "CO2 generation in reactions"
+    ],
+    "properties": {
+      "molar_mass": 84.01,
+      "melting_point_c": 50.0,
+      "boiling_point_c": 851.0,
+      "density_g_cm3": 2.2,
+      "appearance": "White crystalline powder",
+      "state": "solid",
+      "water_solubility": "Soluble (96 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Warning",
+      "ghs_pictograms": [],
+      "h_statements": [],
+      "p_statements": [
+        "P264"
+      ],
+      "nfpa_704": {
+        "health": 0,
+        "flammability": 0,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Non-hazardous substance. Generally regarded as safe."
+    }
+  },
+  {
+    "id": "caco3",
+    "name": "Calcium carbonate",
+    "iupac_name": "Calcium carbonate",
+    "formula": "CaCO3",
+    "cas_number": "471-34-1",
+    "smiles": "[Ca+2].[O-]C([O-])=O",
+    "common_uses": [
+      "Acid-base titrations",
+      "Standard for gravimetric analysis",
+      "pH adjustment of soil and water",
+      "Antacid preparation"
+    ],
+    "properties": {
+      "molar_mass": 100.09,
+      "melting_point_c": 825.0,
+      "boiling_point_c": 1339.0,
+      "density_g_cm3": 2.71,
+      "appearance": "White powder or chalk-like solid",
+      "state": "solid",
+      "water_solubility": "Very slightly soluble (0.013 g/L at 25 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Warning",
+      "ghs_pictograms": [],
+      "h_statements": [],
+      "p_statements": [
+        "P264"
+      ],
+      "nfpa_704": {
+        "health": 0,
+        "flammability": 0,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Considered non-hazardous. Dust may cause mild respiratory irritation."
+    }
+  },
+  {
+    "id": "hcl",
+    "name": "Hydrochloric acid",
+    "iupac_name": "Hydrochloric acid",
+    "formula": "HCl",
+    "cas_number": "7647-01-0",
+    "smiles": "Cl",
+    "common_uses": [
+      "pH adjustment",
+      "Titration of bases",
+      "Dissolution of metals and oxides",
+      "Laboratory acid-base chemistry"
+    ],
+    "properties": {
+      "molar_mass": 36.46,
+      "melting_point_c": -114.2,
+      "boiling_point_c": -85.1,
+      "density_g_cm3": 1.49,
+      "appearance": "Colorless fuming liquid (concentrated) or colorless gas",
+      "state": "gas",
+      "water_solubility": "Miscible (forms 37% w/w aqueous solution)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS05",
+        "GHS06",
+        "GHS07"
+      ],
+      "h_statements": [
+        "H290",
+        "H314",
+        "H335"
+      ],
+      "p_statements": [
+        "P234",
+        "P260",
+        "P264",
+        "P271",
+        "P280",
+        "P301",
+        "P330",
+        "P331"
+      ],
+      "nfpa_704": {
+        "health": 3,
+        "flammability": 0,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Corrosive. Causes severe burns to skin, eyes, and respiratory tract. Use only in fume hood."
+    }
+  },
+  {
+    "id": "h2so4",
+    "name": "Sulfuric acid",
+    "iupac_name": "Sulfuric acid",
+    "formula": "H2SO4",
+    "cas_number": "7664-93-9",
+    "smiles": "OS(=O)(=O)O",
+    "common_uses": [
+      "Acid-base titrations",
+      "Dissolution of inorganic compounds",
+      "Battery acid",
+      "Desiccant"
+    ],
+    "properties": {
+      "molar_mass": 98.08,
+      "melting_point_c": 10.4,
+      "boiling_point_c": 337.0,
+      "density_g_cm3": 1.84,
+      "appearance": "Colorless oily viscous liquid",
+      "state": "liquid",
+      "water_solubility": "Miscible (highly exothermic)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS05"
+      ],
+      "h_statements": [
+        "H290",
+        "H314"
+      ],
+      "p_statements": [
+        "P234",
+        "P260",
+        "P264",
+        "P280",
+        "P301",
+        "P330",
+        "P331",
+        "P363"
+      ],
+      "nfpa_704": {
+        "health": 3,
+        "flammability": 0,
+        "instability": 2,
+        "special": "W"
+      },
+      "sds_summary": "Highly corrosive. Causes severe burns. Reacts violently with water and bases. Always add acid to water."
+    }
+  },
+  {
+    "id": "hno3",
+    "name": "Nitric acid",
+    "iupac_name": "Nitric acid",
+    "formula": "HNO3",
+    "cas_number": "7697-37-2",
+    "smiles": "O[N+](=O)[O-]",
+    "common_uses": [
+      "Digestion of metals for ICP analysis",
+      "Nitration reactions",
+      "Oxidizing agent",
+      "Aqua regia component"
+    ],
+    "properties": {
+      "molar_mass": 63.01,
+      "melting_point_c": -41.6,
+      "boiling_point_c": 83.0,
+      "density_g_cm3": 1.51,
+      "appearance": "Colorless to pale yellow fuming liquid",
+      "state": "liquid",
+      "water_solubility": "Miscible"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS03",
+        "GHS05",
+        "GHS06"
+      ],
+      "h_statements": [
+        "H272",
+        "H290",
+        "H314",
+        "H331",
+        "H411"
+      ],
+      "p_statements": [
+        "P210",
+        "P260",
+        "P264",
+        "P271",
+        "P273",
+        "P280",
+        "P310"
+      ],
+      "nfpa_704": {
+        "health": 4,
+        "flammability": 0,
+        "instability": 3,
+        "special": "OX"
+      },
+      "sds_summary": "Strong oxidizer. Severely corrosive. Toxic if inhaled. Reacts violently with organic materials."
+    }
+  },
+  {
+    "id": "ch3cooh",
+    "name": "Acetic acid",
+    "iupac_name": "Ethanoic acid",
+    "formula": "CH3COOH",
+    "cas_number": "64-19-7",
+    "smiles": "CC(=O)O",
+    "common_uses": [
+      "Buffer preparation (acetate buffer)",
+      "Solvent for chromatography",
+      "Protein precipitation",
+      "Staining fixative"
+    ],
+    "properties": {
+      "molar_mass": 60.05,
+      "melting_point_c": 16.6,
+      "boiling_point_c": 117.9,
+      "density_g_cm3": 1.049,
+      "appearance": "Colorless liquid with pungent vinegar odor",
+      "state": "liquid",
+      "water_solubility": "Miscible"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS05"
+      ],
+      "h_statements": [
+        "H226",
+        "H314"
+      ],
+      "p_statements": [
+        "P210",
+        "P260",
+        "P280",
+        "P301",
+        "P330",
+        "P331"
+      ],
+      "nfpa_704": {
+        "health": 2,
+        "flammability": 2,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Flammable. Corrosive. Causes burns. Strong vinegar odor. Use in fume hood."
+    }
+  },
+  {
+    "id": "naoh",
+    "name": "Sodium hydroxide",
+    "iupac_name": "Sodium hydroxide",
+    "formula": "NaOH",
+    "cas_number": "1310-73-2",
+    "smiles": "[Na+].[OH-]",
+    "common_uses": [
+      "Titration of acids",
+      "Saponification reactions",
+      "pH adjustment",
+      "Protein denaturation"
+    ],
+    "properties": {
+      "molar_mass": 40.0,
+      "melting_point_c": 318.0,
+      "boiling_point_c": 1388.0,
+      "density_g_cm3": 2.13,
+      "appearance": "White pellets or flakes, highly hygroscopic",
+      "state": "solid",
+      "water_solubility": "Highly soluble (1110 g/L at 20 °C, highly exothermic)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS05"
+      ],
+      "h_statements": [
+        "H290",
+        "H314"
+      ],
+      "p_statements": [
+        "P234",
+        "P260",
+        "P264",
+        "P280",
+        "P301",
+        "P330",
+        "P331",
+        "P363"
+      ],
+      "nfpa_704": {
+        "health": 3,
+        "flammability": 0,
+        "instability": 1,
+        "special": "W"
+      },
+      "sds_summary": "Corrosive. Causes severe burns to skin and eyes. Hygroscopic. Reacts exothermically with water."
+    }
+  },
+  {
+    "id": "koh",
+    "name": "Potassium hydroxide",
+    "iupac_name": "Potassium hydroxide",
+    "formula": "KOH",
+    "cas_number": "1310-58-3",
+    "smiles": "[K+].[OH-]",
+    "common_uses": [
+      "Saponification",
+      "Titration standard",
+      "Electrolyte in alkaline batteries",
+      "pH adjustment"
+    ],
+    "properties": {
+      "molar_mass": 56.11,
+      "melting_point_c": 360.0,
+      "boiling_point_c": 1327.0,
+      "density_g_cm3": 2.044,
+      "appearance": "White translucent pellets, highly hygroscopic",
+      "state": "solid",
+      "water_solubility": "Highly soluble (1210 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS05"
+      ],
+      "h_statements": [
+        "H290",
+        "H314"
+      ],
+      "p_statements": [
+        "P234",
+        "P260",
+        "P264",
+        "P280",
+        "P301",
+        "P330",
+        "P331"
+      ],
+      "nfpa_704": {
+        "health": 3,
+        "flammability": 0,
+        "instability": 1,
+        "special": "W"
+      },
+      "sds_summary": "Corrosive. Causes severe chemical burns. Absorbs CO2 from air forming K2CO3."
+    }
+  },
+  {
+    "id": "nh3",
+    "name": "Ammonia",
+    "iupac_name": "Azane",
+    "formula": "NH3",
+    "cas_number": "7664-41-7",
+    "smiles": "N",
+    "common_uses": [
+      "Nessler's reagent for nitrogen detection",
+      "Weak base in titrations",
+      "Preparation of ammonium salts",
+      "Refrigerant (R-717)"
+    ],
+    "properties": {
+      "molar_mass": 17.03,
+      "melting_point_c": -77.7,
+      "boiling_point_c": -33.4,
+      "density_g_cm3": 0.000769,
+      "appearance": "Colorless gas with pungent odor",
+      "state": "gas",
+      "water_solubility": "Highly soluble (540 g/L at 20 °C as aqueous solution)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS04",
+        "GHS05",
+        "GHS06",
+        "GHS09"
+      ],
+      "h_statements": [
+        "H221",
+        "H280",
+        "H314",
+        "H331",
+        "H400"
+      ],
+      "p_statements": [
+        "P260",
+        "P271",
+        "P273",
+        "P280",
+        "P304",
+        "P340",
+        "P310"
+      ],
+      "nfpa_704": {
+        "health": 3,
+        "flammability": 1,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Toxic by inhalation. Corrosive to skin and eyes. Flammable. Very toxic to aquatic life."
+    }
+  },
+  {
+    "id": "ethanol",
+    "name": "Ethanol",
+    "iupac_name": "Ethanol",
+    "formula": "C2H5OH",
+    "cas_number": "64-17-5",
+    "smiles": "CCO",
+    "common_uses": [
+      "Solvent for organic reactions",
+      "Disinfectant and antiseptic",
+      "Extraction solvent",
+      "Chromatography mobile phase"
+    ],
+    "properties": {
+      "molar_mass": 46.07,
+      "melting_point_c": -114.1,
+      "boiling_point_c": 78.4,
+      "density_g_cm3": 0.789,
+      "appearance": "Colorless liquid with characteristic alcohol odor",
+      "state": "liquid",
+      "water_solubility": "Miscible"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02"
+      ],
+      "h_statements": [
+        "H225"
+      ],
+      "p_statements": [
+        "P210",
+        "P233",
+        "P240",
+        "P241",
+        "P242",
+        "P243",
+        "P264"
+      ],
+      "nfpa_704": {
+        "health": 0,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Highly flammable. Keep away from ignition sources. Low toxicity at typical lab concentrations."
+    }
+  },
+  {
+    "id": "acetone",
+    "name": "Acetone",
+    "iupac_name": "Propan-2-one",
+    "formula": "C3H6O",
+    "cas_number": "67-64-1",
+    "smiles": "CC(C)=O",
+    "common_uses": [
+      "Glassware rinsing solvent",
+      "Organic synthesis solvent",
+      "Nail polish remover",
+      "Sample preparation for GC"
+    ],
+    "properties": {
+      "molar_mass": 58.08,
+      "melting_point_c": -94.7,
+      "boiling_point_c": 56.1,
+      "density_g_cm3": 0.791,
+      "appearance": "Colorless volatile liquid with sweet odor",
+      "state": "liquid",
+      "water_solubility": "Miscible"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_statements": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "p_statements": [
+        "P210",
+        "P233",
+        "P261",
+        "P264",
+        "P271",
+        "P305",
+        "P351",
+        "P338"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Highly flammable. Vapors cause drowsiness. Causes eye irritation. Narcotic at high concentrations."
+    }
+  },
+  {
+    "id": "methanol",
+    "name": "Methanol",
+    "iupac_name": "Methanol",
+    "formula": "CH3OH",
+    "cas_number": "67-56-1",
+    "smiles": "CO",
+    "common_uses": [
+      "HPLC mobile phase (reverse-phase)",
+      "Solvent for GC analysis",
+      "Esterification reactions",
+      "Staining solution preparation"
+    ],
+    "properties": {
+      "molar_mass": 32.04,
+      "melting_point_c": -97.6,
+      "boiling_point_c": 64.7,
+      "density_g_cm3": 0.791,
+      "appearance": "Colorless volatile liquid, odor similar to ethanol",
+      "state": "liquid",
+      "water_solubility": "Miscible"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "h_statements": [
+        "H225",
+        "H301",
+        "H311",
+        "H331",
+        "H370"
+      ],
+      "p_statements": [
+        "P210",
+        "P260",
+        "P264",
+        "P270",
+        "P271",
+        "P280",
+        "P301",
+        "P310"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Highly flammable and toxic. Causes blindness and death even in small amounts if ingested. Toxic by skin absorption and inhalation."
+    }
+  },
+  {
+    "id": "isopropanol",
+    "name": "Isopropanol",
+    "iupac_name": "Propan-2-ol",
+    "formula": "C3H8O",
+    "cas_number": "67-63-0",
+    "smiles": "CC(C)O",
+    "common_uses": [
+      "Surface disinfectant",
+      "DNA precipitation solvent",
+      "Chromatography solvent",
+      "Electronics cleaning"
+    ],
+    "properties": {
+      "molar_mass": 60.1,
+      "melting_point_c": -88.5,
+      "boiling_point_c": 82.6,
+      "density_g_cm3": 0.786,
+      "appearance": "Colorless liquid with mild alcohol odor",
+      "state": "liquid",
+      "water_solubility": "Miscible"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_statements": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "p_statements": [
+        "P210",
+        "P233",
+        "P261",
+        "P264",
+        "P271",
+        "P305",
+        "P351",
+        "P338"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Highly flammable. Irritates eyes. Vapors may cause drowsiness and dizziness."
+    }
+  },
+  {
+    "id": "ch2cl2",
+    "name": "Dichloromethane",
+    "iupac_name": "Dichloromethane",
+    "formula": "CH2Cl2",
+    "cas_number": "75-09-2",
+    "smiles": "ClCCl",
+    "common_uses": [
+      "Extraction solvent in liquid-liquid partitioning",
+      "Solvent for column chromatography",
+      "Paint stripper",
+      "Pharmaceutical manufacturing solvent"
+    ],
+    "properties": {
+      "molar_mass": 84.93,
+      "melting_point_c": -96.7,
+      "boiling_point_c": 39.6,
+      "density_g_cm3": 1.325,
+      "appearance": "Colorless volatile liquid with sweet chloroform-like odor",
+      "state": "liquid",
+      "water_solubility": "Slightly soluble (20 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Warning",
+      "ghs_pictograms": [
+        "GHS07",
+        "GHS08"
+      ],
+      "h_statements": [
+        "H315",
+        "H319",
+        "H336",
+        "H351"
+      ],
+      "p_statements": [
+        "P261",
+        "P264",
+        "P271",
+        "P280",
+        "P305",
+        "P337",
+        "P338",
+        "P501"
+      ],
+      "nfpa_704": {
+        "health": 2,
+        "flammability": 1,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Suspected carcinogen. Narcotic at high concentrations. Avoid prolonged skin contact and inhalation."
+    }
+  },
+  {
+    "id": "hexane",
+    "name": "Hexane",
+    "iupac_name": "Hexane",
+    "formula": "C6H14",
+    "cas_number": "110-54-3",
+    "smiles": "CCCCCC",
+    "common_uses": [
+      "Non-polar extraction solvent",
+      "TLC and column chromatography",
+      "Lipid extraction",
+      "Reaction solvent for air-sensitive chemistry"
+    ],
+    "properties": {
+      "molar_mass": 86.18,
+      "melting_point_c": -95.3,
+      "boiling_point_c": 68.7,
+      "density_g_cm3": 0.659,
+      "appearance": "Colorless volatile liquid with petrol-like odor",
+      "state": "liquid",
+      "water_solubility": "Immiscible (0.013 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS07",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_statements": [
+        "H225",
+        "H304",
+        "H315",
+        "H336",
+        "H361",
+        "H373",
+        "H411"
+      ],
+      "p_statements": [
+        "P210",
+        "P260",
+        "P264",
+        "P271",
+        "P273",
+        "P280",
+        "P301",
+        "P331"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Highly flammable. Toxic if inhaled or aspirated. Neurotoxic with repeated exposure. Harmful to aquatic life."
+    }
+  },
+  {
+    "id": "toluene",
+    "name": "Toluene",
+    "iupac_name": "Methylbenzene",
+    "formula": "C7H8",
+    "cas_number": "108-88-3",
+    "smiles": "Cc1ccccc1",
+    "common_uses": [
+      "Aromatic solvent for organic synthesis",
+      "Rubber cement component",
+      "Paint thinner",
+      "Benzene-free aromatic solvent alternative"
+    ],
+    "properties": {
+      "molar_mass": 92.14,
+      "melting_point_c": -95.0,
+      "boiling_point_c": 110.6,
+      "density_g_cm3": 0.867,
+      "appearance": "Colorless liquid with distinctive benzene-like odor",
+      "state": "liquid",
+      "water_solubility": "Slightly soluble (0.52 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS07",
+        "GHS08"
+      ],
+      "h_statements": [
+        "H225",
+        "H304",
+        "H315",
+        "H336",
+        "H361d",
+        "H373"
+      ],
+      "p_statements": [
+        "P210",
+        "P260",
+        "P264",
+        "P270",
+        "P271",
+        "P280",
+        "P301",
+        "P331"
+      ],
+      "nfpa_704": {
+        "health": 2,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Highly flammable. Narcotic. Suspected reproductive toxicant. May cause organ damage with repeated exposure."
+    }
+  },
+  {
+    "id": "phenolphthalein",
+    "name": "Phenolphthalein",
+    "iupac_name": "3,3-Bis(4-hydroxyphenyl)-3H-2-benzofuran-1-one",
+    "formula": "C20H14O4",
+    "cas_number": "77-09-8",
+    "smiles": "OC1=CC=C(C=C1)C1(c2ccccc2C(=O)O1)c1ccc(O)cc1",
+    "common_uses": [
+      "Acid-base indicator (colorless pH<8.2, pink pH>10)",
+      "Laxative pharmaceutical (discontinued)",
+      "End-point detection in alkalimetry",
+      "Titration indicator"
+    ],
+    "properties": {
+      "molar_mass": 318.33,
+      "melting_point_c": 262.0,
+      "boiling_point_c": 557.0,
+      "density_g_cm3": 1.277,
+      "appearance": "White to pale yellow crystalline powder",
+      "state": "solid",
+      "water_solubility": "Very slightly soluble (0.4 g/L); soluble in ethanol"
+    },
+    "safety": {
+      "ghs_signal_word": "Warning",
+      "ghs_pictograms": [
+        "GHS08"
+      ],
+      "h_statements": [
+        "H341",
+        "H350"
+      ],
+      "p_statements": [
+        "P201",
+        "P202",
+        "P260",
+        "P280",
+        "P308"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 1,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Suspected carcinogen and mutagen. Minimize exposure. Typically used as 1% ethanol solution."
+    }
+  },
+  {
+    "id": "iodine",
+    "name": "Iodine",
+    "iupac_name": "Molecular iodine",
+    "formula": "I2",
+    "cas_number": "7553-56-2",
+    "smiles": "II",
+    "common_uses": [
+      "Lugol's iodine starch test",
+      "Iodometric titrations",
+      "Antiseptic",
+      "Winkler oxygen determination"
+    ],
+    "properties": {
+      "molar_mass": 253.81,
+      "melting_point_c": 113.7,
+      "boiling_point_c": 184.3,
+      "density_g_cm3": 4.933,
+      "appearance": "Dark gray-black lustrous solid; violet vapor",
+      "state": "solid",
+      "water_solubility": "Slightly soluble (0.34 g/L at 20 °C); readily soluble in KI solution"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS05",
+        "GHS07",
+        "GHS09"
+      ],
+      "h_statements": [
+        "H290",
+        "H312",
+        "H315",
+        "H317",
+        "H319",
+        "H332",
+        "H400",
+        "H411"
+      ],
+      "p_statements": [
+        "P260",
+        "P264",
+        "P270",
+        "P272",
+        "P273",
+        "P280",
+        "P391"
+      ],
+      "nfpa_704": {
+        "health": 3,
+        "flammability": 0,
+        "instability": 0,
+        "special": "OX"
+      },
+      "sds_summary": "Corrosive to metals. Toxic by inhalation and skin absorption. Oxidizing solid. Very toxic to aquatic life."
+    }
+  },
+  {
+    "id": "kmno4",
+    "name": "Potassium permanganate",
+    "iupac_name": "Potassium permanganate",
+    "formula": "KMnO4",
+    "cas_number": "7722-64-7",
+    "smiles": "[K+].[O-][Mn](=O)(=O)=O",
+    "common_uses": [
+      "Oxidizing titrant (permanganimetry)",
+      "Organic compound oxidation",
+      "Baeyer's test for unsaturation",
+      "Water purification"
+    ],
+    "properties": {
+      "molar_mass": 158.03,
+      "melting_point_c": 240.0,
+      "boiling_point_c": 400.0,
+      "density_g_cm3": 2.703,
+      "appearance": "Dark purple crystalline solid; forms pink/purple solutions",
+      "state": "solid",
+      "water_solubility": "Soluble (76 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS03",
+        "GHS05",
+        "GHS07",
+        "GHS08",
+        "GHS09"
+      ],
+      "h_statements": [
+        "H272",
+        "H290",
+        "H302",
+        "H314",
+        "H341",
+        "H361",
+        "H400",
+        "H410"
+      ],
+      "p_statements": [
+        "P210",
+        "P220",
+        "P260",
+        "P264",
+        "P270",
+        "P273",
+        "P280",
+        "P310"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 0,
+        "instability": 2,
+        "special": "OX"
+      },
+      "sds_summary": "Strong oxidizer. Contact with organic materials may cause fire. Corrosive. Suspected mutagen and reproductive toxicant."
+    }
+  },
+  {
+    "id": "h2o2",
+    "name": "Hydrogen peroxide",
+    "iupac_name": "Hydrogen peroxide",
+    "formula": "H2O2",
+    "cas_number": "7722-84-1",
+    "smiles": "OO",
+    "common_uses": [
+      "Bleaching agent",
+      "Oxidizer in organic synthesis",
+      "Antiseptic (3% solution)",
+      "Fenton's reagent component"
+    ],
+    "properties": {
+      "molar_mass": 34.01,
+      "melting_point_c": -0.43,
+      "boiling_point_c": 150.2,
+      "density_g_cm3": 1.44,
+      "appearance": "Colorless viscous liquid",
+      "state": "liquid",
+      "water_solubility": "Miscible"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS03",
+        "GHS05",
+        "GHS07",
+        "GHS08"
+      ],
+      "h_statements": [
+        "H271",
+        "H302",
+        "H314",
+        "H318",
+        "H332",
+        "H335",
+        "H341",
+        "H351",
+        "H372"
+      ],
+      "p_statements": [
+        "P210",
+        "P220",
+        "P260",
+        "P264",
+        "P270",
+        "P271",
+        "P280",
+        "P310"
+      ],
+      "nfpa_704": {
+        "health": 3,
+        "flammability": 0,
+        "instability": 3,
+        "special": "OX"
+      },
+      "sds_summary": "Oxidizer. Corrosive at high concentrations. Suspected carcinogen. Decomposes releasing O2 if contaminated."
+    }
+  },
+  {
+    "id": "benzene",
+    "name": "Benzene",
+    "iupac_name": "Benzene",
+    "formula": "C6H6",
+    "cas_number": "71-43-2",
+    "smiles": "c1ccccc1",
+    "common_uses": [
+      "Synthesis of styrene, cumene, cyclohexane",
+      "Historical solvent (now largely replaced)",
+      "Standard for NMR (d6-benzene used as deuterated solvent)",
+      "Reference standard in GC calibration"
+    ],
+    "properties": {
+      "molar_mass": 78.11,
+      "melting_point_c": 5.5,
+      "boiling_point_c": 80.1,
+      "density_g_cm3": 0.879,
+      "appearance": "Colorless volatile liquid with characteristic aromatic odor",
+      "state": "liquid",
+      "water_solubility": "Slightly soluble (1.8 g/L at 25 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS06",
+        "GHS08"
+      ],
+      "h_statements": [
+        "H225",
+        "H304",
+        "H315",
+        "H319",
+        "H340",
+        "H350",
+        "H360F",
+        "H372"
+      ],
+      "p_statements": [
+        "P201",
+        "P210",
+        "P260",
+        "P264",
+        "P280",
+        "P301",
+        "P331",
+        "P308",
+        "P313"
+      ],
+      "nfpa_704": {
+        "health": 2,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Known human carcinogen. Causes leukemia with chronic exposure. Highly flammable. Use only in closed systems with appropriate controls."
+    }
+  },
+  {
+    "id": "ethyl_acetate",
+    "name": "Ethyl acetate",
+    "iupac_name": "Ethyl acetate",
+    "formula": "C4H8O2",
+    "cas_number": "141-78-6",
+    "smiles": "CCOC(C)=O",
+    "common_uses": [
+      "TLC and column chromatography solvent",
+      "Extraction solvent",
+      "Recrystallization solvent",
+      "HPLC mobile phase component"
+    ],
+    "properties": {
+      "molar_mass": 88.11,
+      "melting_point_c": -83.6,
+      "boiling_point_c": 77.1,
+      "density_g_cm3": 0.902,
+      "appearance": "Colorless liquid with fruity ester odor",
+      "state": "liquid",
+      "water_solubility": "Slightly soluble (87 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS02",
+        "GHS07"
+      ],
+      "h_statements": [
+        "H225",
+        "H319",
+        "H336"
+      ],
+      "p_statements": [
+        "P210",
+        "P233",
+        "P261",
+        "P264",
+        "P271",
+        "P305",
+        "P351",
+        "P338"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 3,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Highly flammable. Eye irritant. Vapors may cause drowsiness. Relatively low toxicity among organic solvents."
+    }
+  },
+  {
+    "id": "diethyl_ether",
+    "name": "Diethyl ether",
+    "iupac_name": "Ethoxyethane",
+    "formula": "C4H10O",
+    "cas_number": "60-29-7",
+    "smiles": "CCOCC",
+    "common_uses": [
+      "Liquid-liquid extraction of organics",
+      "Grignard reactions (anhydrous)",
+      "Starter fluid",
+      "Historical anesthetic"
+    ],
+    "properties": {
+      "molar_mass": 74.12,
+      "melting_point_c": -116.3,
+      "boiling_point_c": 34.6,
+      "density_g_cm3": 0.713,
+      "appearance": "Colorless, highly volatile liquid with characteristic ethereal odor",
+      "state": "liquid",
+      "water_solubility": "Slightly soluble (69 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS01",
+        "GHS02",
+        "GHS07"
+      ],
+      "h_statements": [
+        "H224",
+        "H302",
+        "H336"
+      ],
+      "p_statements": [
+        "P210",
+        "P233",
+        "P240",
+        "P241",
+        "P242",
+        "P243",
+        "P264",
+        "P270",
+        "P271"
+      ],
+      "nfpa_704": {
+        "health": 1,
+        "flammability": 4,
+        "instability": 1,
+        "special": ""
+      },
+      "sds_summary": "Extremely flammable. Forms explosive peroxides on standing. Narcotic. Flash point -45°C. Keep away from all ignition sources; test for peroxides before distillation."
+    }
+  },
+  {
+    "id": "chloroform",
+    "name": "Chloroform",
+    "iupac_name": "Trichloromethane",
+    "formula": "CHCl3",
+    "cas_number": "67-66-3",
+    "smiles": "ClC(Cl)Cl",
+    "common_uses": [
+      "DNA/RNA extraction (phenol-chloroform method)",
+      "Solvent for IR spectroscopy",
+      "Lipid extraction",
+      "NMR solvent (CDCl3)"
+    ],
+    "properties": {
+      "molar_mass": 119.38,
+      "melting_point_c": -63.5,
+      "boiling_point_c": 61.2,
+      "density_g_cm3": 1.492,
+      "appearance": "Colorless dense liquid with sweet ethereal odor",
+      "state": "liquid",
+      "water_solubility": "Slightly soluble (8.09 g/L at 20 °C)"
+    },
+    "safety": {
+      "ghs_signal_word": "Danger",
+      "ghs_pictograms": [
+        "GHS06",
+        "GHS07",
+        "GHS08"
+      ],
+      "h_statements": [
+        "H302",
+        "H315",
+        "H319",
+        "H331",
+        "H336",
+        "H351",
+        "H361",
+        "H372"
+      ],
+      "p_statements": [
+        "P201",
+        "P260",
+        "P264",
+        "P270",
+        "P271",
+        "P280",
+        "P301",
+        "P311"
+      ],
+      "nfpa_704": {
+        "health": 2,
+        "flammability": 0,
+        "instability": 0,
+        "special": ""
+      },
+      "sds_summary": "Suspected carcinogen and reproductive toxicant. Narcotic. Causes liver and kidney damage with chronic exposure. Store with amylene stabilizer."
+    }
+  }
+]
