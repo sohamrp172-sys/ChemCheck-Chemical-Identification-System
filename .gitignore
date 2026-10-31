@@ -1,4 +1,4 @@
-# Python
+# Python bytecode — never commit these
 __pycache__/
 *.py[cod]
 *.pyo
@@ -20,9 +20,6 @@ env/
 .coverage
 htmlcov/
 
-# Streamlit
-.streamlit/
-
 # OS
 .DS_Store
 Thumbs.db
@@ -31,5 +28,5 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Auto-generated (kept in repo for convenience)
-# data/pubchem_cache.json
+# PubChem runtime cache (regenerated automatically)
+data/pubchem_cache.json
